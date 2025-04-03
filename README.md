@@ -1,97 +1,77 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native Project - UI Focused App
 
-# Getting Started
+## Project Overview
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+This project is a React Native app where the main focus was on building the **user interface (UI)**, specifically designing custom screens that resemble popular apps like **Google Lens** and the **Google Home screen**. While I initially intended to integrate APIs for functionality, I was unable to find a relevant API that served the purpose of the app. Therefore, this project mainly showcases UI design with screens that mimic well-known app interfaces.
 
-## Step 1: Start Metro
+## Features
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+- **Google Lens-like Screen**: Created a custom screen inspired by the Google Lens UI, with a focus on visually appealing design and a clean layout.
+- **Google Home Screen**: Designed a search screen similar to Google's home screen, featuring a search bar and minimalistic design.
+- **Custom UI Elements**: Emphasis on creating custom components for smoother user interactions.
+  
+## UI Focus
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+While APIs for specific functionalities (such as image recognition in Google Lens) were intended to be integrated, there were challenges in finding the right services that fit the project's purpose. Thus, the majority of the work revolves around building polished, user-friendly screens using React Native components and styles.
 
-```sh
-# Using npm
-npm start
+### Screens Implemented
 
-# OR using Yarn
-yarn start
-```
+1. **Google Lens-inspired Screen**:
+   - Designed a screen with custom UI components that are similar to the Google Lens interface.
+   - The focus was on creating a visually engaging layout with smooth animations and transitions.
+   
+2. **Search Screen**:
+   - Created a search screen with a custom search bar and layout resembling Google's search functionality.
+   - Included features like suggestions and smooth transitions.
 
-## Step 2: Build and run your app
+3. **Google Home Screen**:
+   - Emulated the Google Home screen UI, featuring a prominent search bar and minimalistic design.
+   - Focused on responsiveness, simple navigation, and clean, modern UI elements.
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+## Project Setup
 
-### Android
+### Prerequisites
 
-```sh
-# Using npm
-npm run android
+- Node.js (version 12 or higher)
+- React Native CLI or Expo CLI (depending on the approach)
+- Android Studio / Xcode (for building the app)
 
-# OR using Yarn
-yarn android
-```
+### Installation
 
-### iOS
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+2. Install the Dependencies
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+    ```bash
+    npm install
 
-```sh
-bundle install
-```
+3. For IOS
 
-Then, and every time you update your native dependencies, run:
+    ```bash
+    npx pod-install
 
-```sh
-bundle exec pod install
-```
+4. Running the App 
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+    ```bash
+    //for android
+    npm run android
+    //for ios
+    npm run ios
 
-```sh
-# Using npm
-npm run ios
 
-# OR using Yarn
-yarn ios
-```
+### Key Points:
+1. **Focus on UI**: The README explains that the focus of the project was on UI, with the creation of screens resembling Google Lens and the Google Home screen.
+2. **API Limitations**: It mentions that although there was an intention to integrate APIs, the project was unable to find a relevant one, so the work is focused on custom UI.
+3. **Screens Implemented**: Specific screens are outlined, describing their design inspirations and features.
+4. **Setup and Future Enhancements**: It includes instructions for setting up the project, as well as future goals (API integration and adding more screens).
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+This will give anyone reading the README a clear understanding of the project's scope and what was accomplished.
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+## Future Enhancements
 
-## Step 3: Modify your app
+- **API Integration**: If a suitable API is found, I plan to integrate functionality like image recognition or real-time search results (similar to Google Lens).
+  
+- **More Screens**: Additional screens with enhanced functionality could be added in future updates.
 
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
